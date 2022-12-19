@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>News Home Page</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-nav">
+        <img class = "w-logo" src="assets/images/logo.svg" alt="W" >
+        <div class="hamburger-menu">
+          <img src="assets/images/icon-menu.svg" alt="hamburger menu" id="hamburger-icon" class="hamburger-icon">
+          <img src="assets/images/icon-menu-close.svg" alt="Hamburge close button" id="hamburger-close-icon" class="hamburger-close-icon">
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li class="nav-items"><a>Home</a></li>
+          <li class="nav-items"><a>New</a></li>
+          <li class="nav-items"><a>Popular</a></li>
+          <li class="nav-items"><a>Trending</a></li>
+          <li class="nav-items"><a>Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="clearfix"></div>
+  <main class="hero">
+    <div class="container">
+      <div class="hero-flex">
+        <div class="main-hero">
+          <div class="hero-image">
+            <img 
+            srcset="assets/images/image-web-3-mobile.jpg 686w, assets/images/image-web-3-desktop.jpg 1460w"
+            sizes="(max-width: 375px) 686px 1460px"
+            src="assets/images/image-web-3-desktop.jpg"
+            alt="Web 3.0"
+            >
+          </div>
+          <div class="hero-headings">
+            <div class="hero-main-heading">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="hero-main-text">
+              <p>
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?
+              </p>
+              <a href="#" class="hero-cta">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <aside class="side-bar">
+          <div class="sidebar-heading">
+            <h2> New</h2>
+          </div>
+          <div class="sidebar-content">
+            <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr class="sidebar-hr">
+          </div>
+          <div class="sidebar-content">
+            <h3><a href="#">The Downsides of AI Artistry</a></h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            <hr class="sidebar-hr">
+          </div>
+          <div class="sidebar-content">
+            <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <div class="clearfix"></div>
+  <section class="feature">
+    <div class="container">
+      <div class="feature-flex">
+        <div class="feature-steps">
+          <div class="feature-image">
+            <img src="assets/images/image-retro-pcs.jpg" alt="Reviving Retro PCs">
+          </div>
+          <div class="feature-content">
+            <h2>01</h2>
+            <h4><a href="#">Reviving Retro PCs</a></h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="feature-steps">
+          <div class="feature-image">
+            <img src="assets/images/image-top-laptops.jpg" alt="top ten laptops 2022">
+          </div>
+          <div class="feature-content">
+            <h2>02</h2>
+            <h4><a href="#">Top 10 Laptops of 2022</a></h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="feature-steps">
+          <div class="feature-image">
+            <img src="assets/images/image-gaming-growth.jpg" alt="Growth of Gaming">
+          </div>
+          <div class="feature-content">
+            <h2>03</h2>
+            <h4><a href="#">The Growth of Gaming</a></h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
